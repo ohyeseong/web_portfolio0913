@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+body{
+    /* display: none */
+}
+
+.wrap{}
+
+.logo{
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+.logo h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 5px;
+    padding: 30px 0;
+    text-shadow: 3px 3px 5px gray;
+}
+
+.logo a{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo a img{
+    width: 30px;
+    vertical-align: bottom !important;
+}
+
+hr{
+    width: 300px;
+    margin: 30px auto;
+}
+
+/* 메인영역 */
+.main{}
+
+/* 개인프로젝트 영역 */
+.project_area{
+    color: white;
+    padding: 30px 30px 50px 30px;
+    background: no-repeat linear-gradient(#0152c5, #35fff1);
+    width: 100%;
+    position: relative;
+}
+
+.pigma{
+    width: 60px;
+}
+
+.project_cont{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project_design{
+    width: 45%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.project_design h4{
+    margin-bottom: 20px;
+}
+
+.project_design .pro_design_img{
+    width: 100%;
+}
+
+.project_design .pro_design_img img{
+    width: 20%;
+    margin: 0 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.project_mockup{
+    width: 45%;
+    text-align: center;
+}
+
+.project_mockup h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project_mockup div img{
+    width: 75%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sonic{
+    position: absolute;
+    width: 250px;
+    top: 5px;
+    right: 90px;
+    transform: rotate(10deg);
+}
+
+.koopa{
+    position: absolute;
+    width: 250px;
+    top: 330px;
+    right: 36%;
+    transform: rotateY(180deg);
+}
